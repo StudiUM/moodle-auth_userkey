@@ -26,8 +26,8 @@ defined('MOODLE_INTERNAL') || die();
 
 use auth_userkey\core_userkey_manager;
 use auth_userkey\userkey_manager_interface;
+use core_external\external_value;
 
-require_once($CFG->libdir . "/externallib.php");
 require_once($CFG->libdir.'/authlib.php');
 require_once($CFG->dirroot . '/user/lib.php');
 
